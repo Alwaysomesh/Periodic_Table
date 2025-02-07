@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Interactive Periodic Table</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Interactive 3D Periodic Table</h1>
+        <div class="legend">
+            <div class="legend-item" style="background-color: #e8c4a1">Alkali Metal</div>
+            <div class="legend-item" style="background-color: #a1dbe8">Transition Metal</div>
+            <div class="legend-item" style="background-color: #c3a1e8">Halogen</div>
+            <div class="legend-item" style="background-color: var(--lanthanide)">Lanthanide</div>
+            <div class="legend-item" style="background-color: var(--actinide)">Actinide</div>
+            <div class="legend-item" style="background-color: var(--post-transition)">Post-Transition Metal</div>
+            <div class="legend-item" style="background-color: var(--alkaline-earth)">Alkaline Earth Metal</div>
+        </div>
+    </header>
+
+    <main id="periodic-table"></main>
+
+    <div id="details-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="element-name"></h2>
+            <div class="modal-body">
+                <div class="element-info">
+                    <p><b>Atomic Number:</b> <span id="atomic-number"></span></p>
+                    <p><b>Atomic Weight:</b> <span id="atomic-weight"></span></p>
+                    <p><b>Category:</b> <span id="category"></span></p>
+                    <p><b>Electron Configuration:</b> <span id="electron-config"></span></p>
+                    <p><b>Discovery Year:</b> <span id="discovery"></span></p>
+                </div>
+                <div id="model-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
