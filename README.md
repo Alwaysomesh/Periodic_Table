@@ -5,7 +5,7 @@ An interactive periodic table that combines educational element data with 3D mol
 
 ## Deployment
 
-To deployement of this project has been made really easy. Just [click here](https://alwaysomesh.github.io/AI-Chatbot/)
+To deployement of this project has been made really easy. Just [click here](https://alwaysomesh.github.io/Periodic_Table/)
 
 ## ✨ Features
 
