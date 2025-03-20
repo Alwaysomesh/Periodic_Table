@@ -2,7 +2,7 @@
 
 An interactive periodic table that combines educational element data with 3D molecular visualization. Explore elements, view dynamically rotating molecules, and discover detailed scientific information in a user-friendly interface.
 
-![Preview](https://via.placeholder.com/800x400?text=Interactive+Periodic+Table+Preview)
+![Preview](https://alwaysomesh.github.io/Periodic_Table/)
 
 ## ✨ Features
 
