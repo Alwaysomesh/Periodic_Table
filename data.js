@@ -10,9 +10,9 @@ const elements = [
       discovery: '1766',
       gridRow: 1,
       gridColumn: 1,
-      molecule: null
-    },
-    {
+      molecule: null 
+  },
+  {
       number: 2,
       symbol: 'He',
       name: 'Helium',
@@ -22,8 +22,8 @@ const elements = [
       discovery: '1868',
       gridRow: 1,
       gridColumn: 18,
-      molecule: null
-    },
+      molecule: null 
+  },
   
     // Period 2
     {
@@ -36,7 +36,7 @@ const elements = [
       discovery: '1817',
       gridRow: 2,
       gridColumn: 1,
-      molecule: /* Li structure */ null
+      molecule:  null
     },
     {
       number: 4,
